@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.32">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="P1 $/oz"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="P2 $/oz"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="P3 $/oz"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.37">
+
+        <TextView
+            android:id="@+id/tvP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="-"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="346dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71000004">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="Product 1"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="Product 2"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:alpha="0.7"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:lineSpacingExtra="8sp"
+                android:text="Product 3"
+                android:textAllCaps="true"
+                android:textColor="@android:color/holo_red_light"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etPrice1"
+                android:layout_width="106dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Price"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.888"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <EditText
+                android:id="@+id/etPrice2"
+                android:layout_width="108dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Price"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.888"
+                tools:layout_editor_absoluteX="138dp" />
+
+            <EditText
+                android:id="@+id/etPrice3"
+                android:layout_width="107dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Price"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.888"
+                tools:layout_editor_absoluteX="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etLbs1"
+                android:layout_width="107dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Weight (lbs)"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.784" />
+
+            <EditText
+                android:id="@+id/etLbs2"
+                android:layout_width="107dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Weight (lbs)"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.784" />
+
+            <EditText
+                android:id="@+id/etLbs3"
+                android:layout_width="106dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Weight (lbs)"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.784" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="357dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etOz1"
+                android:layout_width="108dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Oz"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.64" />
+
+            <EditText
+                android:id="@+id/etOz2"
+                android:layout_width="108dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:ems="10"
+                android:gravity="right"
+                android:hint="Oz"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.64" />
+
+            <EditText
+                android:id="@+id/etOz3"
+                android:layout_width="108dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="right"
+                android:hint="Oz"
+                android:inputType="number|numberDecimal"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.64" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="222dp"
+        android:alpha="0.8"
+        android:text="The cheapest option will be displayed here!"
+
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.100000024" />
+
+
+    <Button
+        android:id="@+id/buttonCompare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="13dp"
+        android:onClick="findCheapest"
+        android:text="Find Cheapest"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.39" />
+
+</android.support.constraint.ConstraintLayout>
